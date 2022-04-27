@@ -12,7 +12,10 @@ module.exports = {
         bg:{
           DEFAULT:"#f8f9ff",
           card:"#f1f3fa"
-        }
+        },
+        facebook:"#1791f0",
+        twitter:"#1da1f5",
+        maingreen:"#3fac8e"
       }
     },
   },

@@ -20,18 +20,66 @@ function App() {
         </div>
       </div>
       {/* Main Cards */}
-      <div className="container">
+      <div className="container flex">
         {/* Card */}
-        <div className="bg-bg-card text-center py-6 rounded">
-          <div>
-            <span>
+        <div className="card before:bg-sky-500 ">
+          <div className="flex items-center justify-center gap-1 pb-6">
+            <span className="text-facebook">
               <AiFillFacebook size={22} />
             </span>
             <span>@yassin</span>
           </div>
-          <h2 className="text-slate-800">1995</h2>
-          <p>Followers</p>
-          <div>
+          <h2 className="text-slate-800 text-6xl font-bold ">1995</h2>
+          <p className="font-medium uppercase tracking-[0.3em]	">Followers</p>
+          <div className="flex items-center justify-center gap-1 pt-6">
+            <span>
+              <RiArrowUpSFill />
+            </span>
+            <span>Today</span>
+          </div>
+        </div>
+        <div className="card before:bg-twitter">
+          <div className="flex items-center justify-center gap-1 pb-6">
+            <span className="text-twitter">
+              <AiFillTwitterSquare size={22} />
+            </span>
+            <span>@omar</span>
+          </div>
+          <h2 className="text-slate-800 text-6xl font-bold ">1999</h2>
+          <p className="font-medium uppercase tracking-[0.3em]	">Followers</p>
+          <div className="flex items-center justify-center gap-1 pt-6">
+            <span>
+              <RiArrowUpSFill />
+            </span>
+            <span>Today</span>
+          </div>
+        </div>
+        <div className="card before:bg-orange-600 ">
+          <div className="flex items-center justify-center gap-1 pb-6">
+            <span className="text-orange-600">
+              <AiFillInstagram size={22} />
+            </span>
+            <span>@ahmed</span>
+          </div>
+          <h2 className="text-slate-800 text-6xl font-bold ">2001</h2>
+          <p className="font-medium uppercase tracking-[0.3em]	">Followers</p>
+          <div className="flex items-center justify-center gap-1 pt-6">
+            <span>
+              <RiArrowUpSFill />
+            </span>
+            <span>Today</span>
+          </div>
+        </div>
+        <div className="card before:bg-rose-700 ">
+          <div className="flex items-center justify-center gap-1 pb-6">
+            <span className="text-rose-700">
+              <AiFillYoutube size={22} />
+            </span>
+            <span>@yousef</span>
+          </div>
+          <h2 className="text-slate-800 text-6xl font-bold ">2007</h2>
+          <p className="font-medium uppercase tracking-[0.3em]	">Followers</p>
+          <div className="flex items-center justify-center gap-1 pt-6">
             <span>
               <RiArrowUpSFill />
             </span>

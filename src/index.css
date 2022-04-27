@@ -3,4 +3,15 @@
 @tailwind utilities;
 
 
-
+.card{
+    @apply bg-bg-card text-center py-6 rounded 
+    before:content-[''] 
+    before:w-full 
+    before:h-1 
+    relative 
+    before:absolute 
+    before:top-0 
+    before:left-0 
+    overflow-hidden
+    w-1/4
+}
