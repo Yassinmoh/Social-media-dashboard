@@ -4,7 +4,10 @@
 
 
 .card{
-    @apply bg-bg-card text-center py-6 rounded 
+    @apply bg-bg-card 
+    dark:bg-darkbg-card
+    text-center 
+    py-6 rounded 
     before:content-[''] 
     before:w-full 
     before:h-1 
@@ -13,5 +16,11 @@
     before:top-0 
     before:left-0 
     overflow-hidden
-    w-1/4
+}
+
+.card-sm{
+    @apply bg-bg-card 
+    dark:bg-darkbg-card
+    text-center py-6 
+    px-4 rounded;
 }
